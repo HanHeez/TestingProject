@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rlDetailInfo"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/length_44">
+
+        <LinearLayout
+            android:id="@+id/tvDetailInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/length_76"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="invisible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mianfeizhong"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_11"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ivArrow"
+                android:layout_width="@dimen/length_34"
+                android:layout_height="fill_parent"
+                android:background="@drawable/navigation_top_icon_bg_day"
+                android:paddingLeft="@dimen/length_8"
+                android:paddingRight="@dimen/length_8"
+                android:scaleType="center"
+                android:src="@drawable/v7_ic_mianzi_baise" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/layoutMainBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/length_90"
+        android:background="@color/black">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/length_16"
+            android:layout_marginTop="@dimen/length_16"
+            android:layout_marginRight="@dimen/length_16"
+            android:layout_marginBottom="@dimen/length_8"
+
+
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/ivIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_12"
+                 />
+
+            <LinearLayout
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_8"
+                android:layout_marginRight="@dimen/length_8"
+                android:layout_weight="1.0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvMain"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text=""
+                    android:textColor="@color/color_3b3f47"
+                    android:textSize="@dimen/qd_fontsize_16"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvSubTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/length_7"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/xinren_zhuanxiang_fuli"
+                    android:textColor="@color/color_838a96"
+                    android:textSize="@dimen/qd_fontsize_12"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvButton"
+                android:layout_width="@dimen/length_48"
+                android:layout_height="@dimen/length_28"
+                android:layout_marginLeft="@dimen/length_8"
+                android:layout_marginRight="@dimen/length_16"
+                android:gravity="center"
+                android:text="@string/lingqu"
+                android:textColor="@color/white"
+                android:textSize="@dimen/qd_fontsize_12" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

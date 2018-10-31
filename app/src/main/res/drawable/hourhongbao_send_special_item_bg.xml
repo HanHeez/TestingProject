@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top" android:drawable="@drawable/v7_bg_zhengdianhongbao_send_large" />
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/transparent" />
+            <stroke android:width="@dimen/length_0_5" android:color="@color/color_ff767d" />
+            <corners android:radius="@dimen/length_8" />
+        </shape>
+    </item>
+</layer-list>

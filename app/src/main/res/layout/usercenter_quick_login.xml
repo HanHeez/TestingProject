@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:skin="http://schemas.android.com/android/skin" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/length_22" android:textStyle="bold" android:textColor="@color/color_3b3f47" android:id="@+id/tvLoginHint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/length_16" android:layout_marginTop="@dimen/length_12" android:layout_marginBottom="@dimen/length_8" android:text="@string/denglu_zhuce"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/mobileLayout" android:padding="@dimen/length_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/length_8" android:layout_below="@+id/tvLoginHint">
+        <ImageView android:layout_width="@dimen/length_44" android:layout_height="@dimen/length_44" android:src="@drawable/v7_login_phone" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/wechatLayout" android:padding="@dimen/length_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/mobileLayout" android:layout_below="@+id/tvLoginHint">
+        <ImageView android:layout_width="@dimen/length_44" android:layout_height="@dimen/length_44" android:src="@drawable/v7_login_wechat" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/qqLayout" android:padding="@dimen/length_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/wechatLayout" android:layout_below="@+id/tvLoginHint">
+        <ImageView android:layout_width="@dimen/length_44" android:layout_height="@dimen/length_44" android:src="@drawable/v7_login_qqway" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/linLoginOther" android:padding="@dimen/length_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/qqLayout" android:layout_below="@+id/tvLoginHint">
+        <ImageView android:background="@drawable/round_100_838a96_bg" android:layout_width="@dimen/length_44" android:layout_height="@dimen/length_44" android:src="@drawable/v7_login_more" android:scaleType="centerInside"/>
+    </LinearLayout>
+    <View android:id="@+id/loginDivide" android:background="@drawable/divider_line_shape_common_module_bg" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/length_12" android:layout_marginTop="@dimen/length_16" android:layout_below="@+id/linLoginOther"/>
+</RelativeLayout>

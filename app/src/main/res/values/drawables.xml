@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="chapter_pay_bt_bg_nor" type="drawable">#ff5a86b3</item>
+    <item name="chapter_pay_bt_bg_pressed" type="drawable">#ff4c7399</item>
+    <item name="chapter_pay_bt_bg_unenable" type="drawable">#ffcccccc</item>
+    <item name="color_628ae1" type="drawable">@color/color_628AE1</item>
+    <item name="color_d23e3b" type="drawable">@color/color_d23e3b</item>
+    <item name="color_d43c33" type="drawable">@color/color_d43c33</item>
+    <item name="color_e2ecff" type="drawable">@color/color_e2ecff</item>
+    <item name="color_e46d98" type="drawable">@color/color_e46d98</item>
+    <item name="color_f4cfcd" type="drawable">@color/color_f4cfcd</item>
+    <item name="color_ffe2ec" type="drawable">@color/color_ffe2ec</item>
+    <item name="notification_template_icon_bg" type="drawable">#3333b5e5</item>
+    <item name="notification_template_icon_low_bg" type="drawable">#0cffffff</item>
+    <item name="translucent_bg" type="drawable">@color/translucent_bg</item>
+    <item name="transparent" type="drawable">@color/transparent</item>
+    <item name="white" type="drawable">@color/white</item>
+</resources>

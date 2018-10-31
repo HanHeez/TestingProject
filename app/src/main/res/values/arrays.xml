@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="email">
+        <item>@string/email_qq</item>
+        <item>@string/email_163</item>
+        <item>@string/email_126</item>
+        <item>@string/email_sina</item>
+        <item>@string/email_yeah</item>
+        <item>@string/email_foxmail</item>
+        <item>@string/email_gmail</item>
+        <item>@string/email_sohu</item>
+        <item>@string/email_139</item>
+        <item>@string/email_outlook</item>
+        <item>@string/email_tom</item>
+        <item>@string/email_live</item>
+        <item>@string/email_msn</item>
+        <item>@string/email_yahoo</item>
+    </string-array>
+    <array name="material_colors">
+        <item>@color/material_red</item>
+        <item>@color/material_green</item>
+        <item>@color/material_blue</item>
+        <item>@color/material_yellow</item>
+    </array>
+    <array name="openid_list" />
+    <array name="openkey_list" />
+    <array name="qq_list" />
+    <string-array name="read_font_padding">
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>28</item>
+        <item>32</item>
+        <item>36</item>
+        <item>40</item>
+    </string-array>
+    <string-array name="read_image_array">
+        <item>@string/read_image_info</item>
+        <item>@string/read_image_save</item>
+    </string-array>
+    <string-array name="read_pageflip_array">
+        <item>@string/wufanyexiaoguo</item>
+        <item>@string/fangzhenfanye</item>
+        <item>@string/zuoyoutuodong</item>
+        <item>@string/shangxiatuodong</item>
+        <item>@string/gunpingfanye</item>
+    </string-array>
+    <string-array name="read_tts_time_array">
+        <item>@string/read_tts_time_0</item>
+        <item>@string/read_tts_time_15</item>
+        <item>@string/read_tts_time_30</item>
+        <item>@string/read_tts_time_60</item>
+        <item>@string/read_tts_time_90</item>
+        <item>@string/read_tts_time_current_chapter</item>
+        <item>@string/read_tts_time_10_chapter</item>
+    </string-array>
+    <string-array name="read_wakelock_array_jian">
+        <item>@string/shiyongxitongmorenshezhi_jian</item>
+        <item>@string/two_min_close_jian</item>
+        <item>@string/five_min_close_jian</item>
+        <item>@string/ten_min_close_jian</item>
+        <item>@string/pingmucongbuguanbi_jian</item>
+    </string-array>
+</resources>

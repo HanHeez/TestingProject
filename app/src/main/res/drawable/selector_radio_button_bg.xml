@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/item_bg_f5f7fa_corner_3" />
+    <item android:state_checked="true" android:drawable="@drawable/bg_read_shade_radius_3" />
+    <item android:state_pressed="true" android:drawable="@drawable/bg_read_shade_radius_3" />
+</selector>

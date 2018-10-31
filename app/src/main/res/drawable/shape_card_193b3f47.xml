@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="2.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="4.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#003b3f47" android:endColor="#193b3f47" android:angle="0.0" />
+            <corners android:topLeftRadius="2.0dip" android:topRightRadius="2.0dip" android:bottomLeftRadius="2.0dip" android:bottomRightRadius="2.0dip" />
+        </shape>
+    </item>
+    <item android:left="4.0dip" android:top="4.0dip" android:right="2.0dip" android:bottom="4.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#003b3f47" android:endColor="#193b3f47" android:angle="180.0" />
+            <corners android:topLeftRadius="2.0dip" android:topRightRadius="2.0dip" android:bottomLeftRadius="2.0dip" android:bottomRightRadius="2.0dip" />
+        </shape>
+    </item>
+    <item android:left="4.0dip" android:top="2.0dip" android:right="4.0dip" android:bottom="4.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#003b3f47" android:endColor="#193b3f47" android:angle="-90.0" />
+            <corners android:topLeftRadius="2.0dip" android:topRightRadius="2.0dip" android:bottomLeftRadius="2.0dip" android:bottomRightRadius="2.0dip" />
+        </shape>
+    </item>
+    <item android:left="4.0dip" android:top="4.0dip" android:right="4.0dip" android:bottom="2.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#003b3f47" android:endColor="#193b3f47" android:angle="90.0" />
+            <corners android:topLeftRadius="2.0dip" android:topRightRadius="2.0dip" android:bottomLeftRadius="2.0dip" android:bottomRightRadius="2.0dip" />
+        </shape>
+    </item>
+    <item android:left="6.0dip" android:top="6.0dip" android:right="6.0dip" android:bottom="6.0dip">
+        <shape android:shape="rectangle">
+            <gradient android:startColor="#ffffffff" android:endColor="#ffffffff" android:angle="270.0" />
+            <corners android:topLeftRadius="2.0dip" android:topRightRadius="2.0dip" android:bottomLeftRadius="2.0dip" android:bottomRightRadius="2.0dip" />
+        </shape>
+    </item>
+</layer-list>

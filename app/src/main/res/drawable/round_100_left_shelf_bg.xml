@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/readmenu_toolbar_color" />
+    <corners android:topLeftRadius="100.0dip" android:topRightRadius="0.0dip" android:bottomLeftRadius="100.0dip" android:bottomRightRadius="0.0dip" />
+    <padding android:left="15.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip" />
+</shape>

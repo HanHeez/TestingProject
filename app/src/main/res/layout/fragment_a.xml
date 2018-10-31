@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:srlEnableAutoLoadMore="false">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="ABC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!--<android.support.v7.widget.RecyclerView-->
+                <!--android:id="@+id/recyclerView"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:overScrollMode="never"-->
+                <!--tools:listitem="@android:layout/simple_list_item_2"/>-->
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:lottie_rawRes="@raw/chaptercommentlikelottie"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:lottie_rawRes="@raw/pull_refresh_animation"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:lottie_rawRes="@raw/loading_red_animation"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:lottie_rawRes="@raw/tab_bookshelf"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:lottie_rawRes="@raw/chaptercommentlikelottienew"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                app:lottie_rawRes="@raw/pull_refresh_animation_white"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                />
+
+        </LinearLayout>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

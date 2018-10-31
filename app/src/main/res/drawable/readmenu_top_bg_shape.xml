@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <stroke android:width="@dimen/length_1px" android:color="@color/readmenu_line_color" />
+            <padding android:left="@dimen/length_1px" android:top="@dimen/length_1px" android:right="@dimen/length_1px" android:bottom="@dimen/length_1px" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rlHeaderViews"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/llTitlebarRoot"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/length_44"
+            android:background="@drawable/bg_read_shade"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/bookshelf_top"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/length_44">
+
+                <!--<com.qidian.QDReader.ui.view.QDViewPagerIndicator-->
+                    <!--xmlns:indicator="http://schemas.android.com/apk/res-auto"-->
+                    <!--android:id="@+id/mTabView"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:paddingLeft="@dimen/length_100"-->
+                    <!--android:paddingRight="@dimen/length_100"-->
+                    <!--indicator:indicatorColor="@color/white"-->
+                    <!--indicator:normalColor="@color/color_ccffffff"-->
+                    <!--indicator:selectedColor="@color/white" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/btnTopSearch"
+                        android:layout_width="@dimen/length_34"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/navigation_top_icon_bg_day"
+                        android:scaleType="center"
+                        android:src="@drawable/v7_ic_sousuo_baise" />
+
+                    <ImageView
+                        android:id="@+id/btnTopMore"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/navigation_top_icon_bg_day"
+                        android:paddingLeft="@dimen/length_14"
+                        android:paddingRight="@dimen/length_14"
+                        android:scaleType="center"
+                        android:src="@drawable/v7_ic_gengduo_baise" />
+
+                    <ImageView
+                        android:id="@+id/btnMyChased"
+                        android:layout_width="wrap_content"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/navigation_top_icon_bg_day"
+                        android:paddingLeft="@dimen/length_14"
+                        android:paddingRight="@dimen/length_14"
+                        android:scaleType="center"
+                        android:src="@drawable/v7_woguanzhude_baise"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/btnTopChoose"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/length_24"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/length_16"
+                    android:layout_marginRight="@dimen/length_2"
+                    android:background="@drawable/navigation_top_statistics_icon_bg_unselected"
+                    android:drawableLeft="@drawable/v7_ic_shaixuan_baise_small"
+                    android:drawablePadding="@dimen/length_4"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxWidth="@dimen/length_100"
+                    android:maxLines="1"
+                    android:minWidth="@dimen/length_60"
+                    android:paddingLeft="@dimen/length_10"
+                    android:paddingRight="@dimen/length_10"
+                    android:text="@string/shaixuan"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/qd_fontsize_12" />
+
+                <ImageView
+                    android:id="@+id/btnTopAddTrend"
+                    android:layout_width="@dimen/length_50"
+                    android:layout_height="fill_parent"
+                    android:layout_alignParentLeft="true"
+                    android:paddingLeft="@dimen/length_16"
+                    android:paddingTop="@dimen/length_13"
+                    android:paddingRight="@dimen/length_16"
+                    android:paddingBottom="@dimen/length_13"
+                    android:src="@drawable/v7_ic_tianjia_baise"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ViewStub
+            android:id="@+id/viewStubNewUser"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/llTitlebarRoot"
+            android:layout_marginTop="@dimen/length_0"
+            android:layout="@layout/bookshelf_newuser_training_layout" />
+    </RelativeLayout>
+
+    <com.qidian.QDReader.framework.widget.viewpager.QDViewPager
+        android:id="@+id/mViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rlHeaderViews"
+        android:background="@color/white" />
+
+    <ViewStub
+        android:id="@+id/viewStubMyGroupGuide"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/bookshelf_mygroup_guide" />
+</RelativeLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:divider="@drawable/v7_divider_line_shape"
+    android:orientation="vertical"
+    android:showDividers="end|middle">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layoutSeries"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="@drawable/v7_divider_line_shape"-->
+        <!--android:dividerPadding="@dimen/length_16"-->
+        <!--android:orientation="vertical"-->
+        <!--android:showDividers="middle"-->
+        <!--android:visibility="visible">-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/seriesNextLayout"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/length_56"-->
+            <!--android:background="@drawable/item_bg_transparent"-->
+            <!--android:paddingLeft="@dimen/length_16"-->
+            <!--android:paddingRight="@dimen/length_16"-->
+            <!--android:visibility="visible">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:text="@string/jixuyuedu"-->
+                <!--android:textColor="@color/color_3b3f47"-->
+                <!--android:textSize="@dimen/qd_fontsize_16"-->
+                <!--android:textStyle="bold" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvBookName"-->
+                <!--style="@style/section_more_style"-->
+                <!--android:layout_marginRight="@dimen/length_0" />-->
+        <!--</RelativeLayout>-->
+
+        <!--<ViewStub-->
+            <!--android:id="@+id/seriesViewStub"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout="@layout/view_seriesbook_module" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layoutAuto"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/length_80"-->
+        <!--android:divider="@drawable/v7_divider_line_shape"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:showDividers="middle">-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_sw_1"-->
+            <!--layout="@layout/view_book_lastpage_switchcompact" />-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_sw_2"-->
+            <!--layout="@layout/view_book_lastpage_switchcompact" />-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_sw_3"-->
+            <!--layout="@layout/view_book_lastpage_switchcompact" />-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_comment"-->
+            <!--layout="@layout/view_book_lastpage_interaction" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/dashang_yuepiao_tuijian_layout"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minHeight="@dimen/length_80"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_tjp"-->
+            <!--layout="@layout/view_book_lastpage_interaction" />-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_yp"-->
+            <!--layout="@layout/view_book_lastpage_interaction" />-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_ds"-->
+            <!--layout="@layout/view_book_lastpage_interaction" />-->
+
+        <!--<include-->
+            <!--android:id="@+id/layout_lastpage_hb"-->
+            <!--layout="@layout/view_book_lastpage_interaction" />-->
+    <!--</LinearLayout>-->
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/layout_lastpage_fans"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/length_68"-->
+        <!--android:background="@drawable/item_bg_transparent"-->
+        <!--android:visibility="visible">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/layoutFans"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvfanstitle"-->
+                <!--style="@style/section_label_style"-->
+                <!--android:layout_marginRight="@dimen/length_6"-->
+                <!--android:text="@string/zuopinfensibang" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/tvFansCount"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="@dimen/length_16"-->
+                <!--android:text="@string/become_first_fans"-->
+                <!--android:textColor="@color/color_838a96"-->
+                <!--android:textSize="@dimen/qd_fontsize_12" />-->
+        <!--</LinearLayout>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_fans_more"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="@dimen/length_16"-->
+            <!--android:src="@drawable/v7_ic_youjiantou_huise" />-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/layoutFansImgs"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginLeft="@dimen/length_8"-->
+            <!--android:layout_marginRight="@dimen/length_3"-->
+            <!--android:layout_toLeftOf="@+id/iv_fans_more"-->
+            <!--android:layout_toRightOf="@+id/layoutFans"-->
+            <!--android:minWidth="@dimen/length_24"-->
+            <!--android:minHeight="@dimen/length_24" />-->
+    <!--</RelativeLayout>-->
+
+    <!--&lt;!&ndash;<com.qidian.QDReader.ui.view.QDBookRoleView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/bookRoleView"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<com.qidian.QDReader.ui.view.BookCommentListRelativeView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/relativeBookCommentView"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<LinearLayout&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/adLayout"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginTop="@dimen/module_divider_height_fu"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_marginBottom="@dimen/module_divider_height_fu"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/color_f5f7fa"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="vertical"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:visibility="visible">&ndash;&gt;-->
+
+        <!--&lt;!&ndash;&lt;!&ndash;<com.qidian.QDReader.ui.view.AdView&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:id="@+id/ivAd"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:layout_marginLeft="@dimen/length_16"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:layout_marginTop="@dimen/length_16"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:layout_marginRight="@dimen/length_16"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:layout_marginBottom="@dimen/length_16"&ndash;&gt;&ndash;&gt;-->
+            <!--&lt;!&ndash;&lt;!&ndash;android:visibility="gone" />&ndash;&gt;&ndash;&gt;-->
+    <!--&lt;!&ndash;</LinearLayout>&ndash;&gt;-->
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layoutInfo"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:divider="@drawable/v7_divider_line_shape"-->
+        <!--android:dividerPadding="@dimen/length_16"-->
+        <!--android:orientation="vertical"-->
+        <!--android:showDividers="middle">-->
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/layout_lastpage_author_others"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="@dimen/length_56"-->
+            <!--android:background="@drawable/item_bg_transparent"-->
+            <!--android:visibility="visible">-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/author_others_title"-->
+                <!--style="@style/section_label_style"-->
+                <!--android:text="@string/zuozhehaixieguo" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/right_content_author_others"-->
+                <!--style="@style/section_more_style" />-->
+        <!--</RelativeLayout>-->
+
+        <!--&lt;!&ndash;<com.qidian.QDReader.ui.view.BookPeripheralView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/bookPeripheralView"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:visibility="gone" />&ndash;&gt;-->
+    <!--</LinearLayout>-->
+
+    <!--&lt;!&ndash;<com.qidian.QDReader.ui.widget.ShowBookHorizontalView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/layout_lastpage_shuhuang"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<com.qidian.QDReader.ui.view.ComicHorizontalView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/layoutComicHorizontal"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:visibility="gone" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<com.qidian.QDReader.ui.view.RecomBookListRelativeView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/layoutRecomBookList"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@drawable/transparent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:visibility="gone" />&ndash;&gt;-->
+</LinearLayout>

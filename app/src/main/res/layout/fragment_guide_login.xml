@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/otherLoginLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingLeft="@dimen/length_24"
+            android:paddingTop="@dimen/length_24"
+            android:paddingRight="@dimen/length_8"
+            android:paddingBottom="@dimen/length_24"
+            android:text="@string/qitafangshidenglu"
+            android:textColor="@color/color_838a96"
+            android:textSize="@dimen/textsize_13" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/length_24"
+            android:paddingBottom="@dimen/length_24"
+            android:text="|"
+            android:textColor="@color/color_838a96"
+            android:textSize="@dimen/textsize_13" />
+
+        <TextView
+            android:id="@+id/tvSkip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:paddingLeft="@dimen/length_8"
+            android:paddingTop="@dimen/length_24"
+            android:paddingRight="@dimen/length_24"
+            android:paddingBottom="@dimen/length_24"
+            android:text="@string/suibiankankan"
+            android:textColor="@color/color_838a96"
+            android:textSize="@dimen/textsize_13" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/loginLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/otherLoginLayout"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvWechat"
+            android:layout_width="@dimen/length_240"
+            android:layout_height="@dimen/length_40"
+            android:background="@color/color_18BF40"
+            android:drawableLeft="@drawable/v640_share_wechat"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/length_72"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_15"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvQQ"
+            android:layout_width="@dimen/length_240"
+            android:layout_height="@dimen/length_40"
+            android:layout_marginTop="@dimen/length_16"
+            android:background="@color/color_00B9FB"
+            android:drawableLeft="@drawable/v640_share_qq"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/length_72"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_15"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/loginLayout"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_guide_book" />
+    </LinearLayout>
+</RelativeLayout>

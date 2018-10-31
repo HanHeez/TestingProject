@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PauseDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+    </style>
+
+    <style name="PauseDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/popup_exit</item>
+    </style>
+
+
+    <style name="main_red_btn_style">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@drawable/main_red_btn_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/mainred_btn</item>
+        <item name="android:paddingLeft">@dimen/length_6</item>
+        <item name="android:paddingTop">@dimen/length_3</item>
+        <item name="android:paddingRight">@dimen/length_6</item>
+        <item name="android:paddingBottom">@dimen/length_3</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/length_40</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="main_white_btn_style">
+        <item name="android:textSize">@dimen/textsize_14</item>
+        <item name="android:textColor">@drawable/main_white_btn_selector</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/qd_button_grey_selector</item>
+        <item name="android:paddingLeft">@dimen/length_6</item>
+        <item name="android:paddingTop">@dimen/length_3</item>
+        <item name="android:paddingRight">@dimen/length_6</item>
+        <item name="android:paddingBottom">@dimen/length_3</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/length_40</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+</resources>

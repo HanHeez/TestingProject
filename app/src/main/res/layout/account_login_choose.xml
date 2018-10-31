@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/length_46"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/length_34"
+        android:layout_marginTop="@dimen/length_11"
+        android:layout_marginRight="@dimen/length_34"
+        android:layout_marginBottom="@dimen/length_12"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/color_4a4a4a"
+        android:textSize="@dimen/qd_fontsize_16" />
+
+    <View
+        android:id="@+id/dividerLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/length_34"
+        android:layout_marginRight="@dimen/length_34"
+        android:background="@color/e6e6e6" />
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/length_13">
+
+    <TextView
+        android:id="@+id/mContentTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_13"
+        android:gravity="center"
+        android:text="@string/multi_login_error_text"
+        android:textColor="#ff333333"
+        android:textSize="@dimen/textsize_14" />
+
+    <TextView
+        android:id="@+id/mSearchPwdTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_below="@+id/mContentTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/length_13"
+        android:layout_marginTop="@dimen/length_13"
+        android:layout_marginRight="@dimen/length_13"
+        android:background="@drawable/v6_mainred_btn"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/search_password"
+        android:textColor="@color/TextColorWhite"
+        android:textSize="@dimen/textsize_16" />
+
+    <TextView
+        android:id="@+id/mCancelTextView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_below="@+id/mSearchPwdTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/length_13"
+        android:layout_marginTop="@dimen/length_13"
+        android:layout_marginRight="@dimen/length_13"
+        android:background="@drawable/v6_main_white_btn_selector"
+        android:gravity="center"
+        android:singleLine="true"
+        android:text="@string/quxiao"
+        android:textColor="#ff333333"
+        android:textSize="@dimen/textsize_16" />
+</RelativeLayout>

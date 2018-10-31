@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/length_80"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:layout_weight="1.0"
+    android:background="@drawable/item_bg_transparent"
+    >
+
+    <ImageView
+        android:id="@+id/ivTicketIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/tvTicketName"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/v7_ic_zhuyao_tuijianpiao" />
+
+    <com.gtv.hanhee.qdclone.ui.framework.widget.BubbleTextView
+        android:id="@+id/btvPop"
+        android:layout_width="@dimen/length_12"
+        android:layout_height="@dimen/length_12"
+        android:layout_alignTop="@+id/ivTicketIcon"
+        android:layout_marginLeft="@dimen/length_5_fu"
+        android:layout_marginTop="@dimen/length_7_fu"
+        android:layout_toRightOf="@+id/ivTicketIcon"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvTicketName"
+        android:text="@string/tuijianpiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/length_3"
+        android:layout_marginBottom="@dimen/length_14"
+        android:textColor="@color/color_3b3f47"
+        android:textSize="@dimen/qd_fontsize_10"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTicketDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTicketName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/length_4"
+        android:gravity="center_horizontal"
+        android:maxLines="2"
+        android:paddingLeft="@dimen/length_5"
+        android:paddingRight="@dimen/length_5"
+        android:text="Tên"
+        android:visibility="gone"
+        android:textColor="@color/color_838a96"
+        android:textSize="@dimen/qd_fontsize_12" />
+</RelativeLayout>

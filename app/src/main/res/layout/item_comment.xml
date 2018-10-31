@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/comment_iv_portrait"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/comment_tv_floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/comment_iv_portrait"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Comment"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/comment_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/comment_tv_floor"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text=" tên"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/comment_tv_lv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/comment_tv_name"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="cấp độ"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/comment_tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="Thời gian"
+        android:textColor="#000"
+        android:textSize="13sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/comment_tv_like_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="số lượng"
+        android:textColor="#000"
+        android:textSize="13sp"
+        android:visibility="gone"/>
+
+
+    <TextView
+        android:id="@+id/comment_tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment_tv_name"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/comment_iv_portrait"
+        android:text="nội dung"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/comment_tv_reply_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment_tv_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/comment_iv_portrait"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="reply_nickname"
+        android:textColor="#000"
+        android:textSize="13sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/comment_tv_reply_floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comment_tv_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/comment_tv_reply_name"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="reply"
+        android:textColor="#000"
+        android:textSize="13sp"
+        android:visibility="gone"/>
+</RelativeLayout>

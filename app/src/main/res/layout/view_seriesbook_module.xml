@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_bg_transparent"
+    android:orientation="vertical">
+
+    <!--<LinearLayout-->
+        <!--android:id="@+id/layoutTitle"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/length_40"-->
+        <!--android:gravity="bottom"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:paddingLeft="@dimen/length_16"-->
+        <!--android:paddingRight="@dimen/length_16">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvTitle"-->
+            <!--android:layout_width="0.0dip"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1.0"-->
+            <!--android:textColor="@color/color_3b3f47"-->
+            <!--android:textSize="@dimen/length_15"-->
+            <!--android:textStyle="bold" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvMore"-->
+            <!--style="@style/section_more_style"-->
+            <!--android:layout_marginRight="@dimen/length_0" />-->
+    <!--</LinearLayout>-->
+
+    <!--<view class="android.support.v7.app.AlertController$RecycleListView"-->
+        <!--android:id="@+id/seriesList"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="@dimen/length_62"-->
+        <!--android:paddingTop="@dimen/length_16" />-->
+
+    <!--<View-->
+        <!--android:id="@+id/viewDivider"-->
+        <!--style="@style/item_divide_style" />-->
+</LinearLayout>

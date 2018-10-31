@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/translucent_bg">
+
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:divider="@drawable/v7_divider_line_shape"
+        android:orientation="vertical"
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/length_56"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/denglu_zhuce"
+                android:textColor="@color/color_4a4a4a"
+                android:textSize="@dimen/qd_fontsize_14" />
+
+            <TextView
+                android:id="@+id/tvGift"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/length_20"
+                android:layout_marginLeft="@dimen/length_9"
+                android:background="@drawable/round_rectangle_ff6565"
+                android:gravity="center"
+                android:paddingLeft="@dimen/length_9"
+                android:paddingRight="@dimen/length_9"
+                android:text="@string/lingquxinrenfuli"
+                android:textColor="@color/white"
+                android:textSize="@dimen/qd_fontsize_11"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/length_12"
+            android:paddingRight="@dimen/length_12">
+
+            <LinearLayout
+                android:id="@+id/mobileLayout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/length_24"
+                android:paddingBottom="@dimen/length_24">
+
+                <ImageView
+                    android:layout_width="@dimen/length_48"
+                    android:layout_height="@dimen/length_48"
+                    android:scaleType="center"
+                    android:src="@drawable/v7_login_phone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/length_4"
+                    android:text="@string/shoujihao"
+                    android:textColor="@color/color_3b3f47"
+                    android:textSize="@dimen/qd_fontsize_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wechatLayout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/length_24"
+                android:paddingBottom="@dimen/length_24">
+
+                <ImageView
+                    android:id="@+id/ivWx"
+                    android:layout_width="@dimen/length_48"
+                    android:layout_height="@dimen/length_48"
+                    android:background="@drawable/round_100_3fc300_bg"
+                    android:scaleType="center"
+                    android:src="@drawable/v7_login_wx" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/length_4"
+                    android:text="@string/weixin"
+                    android:textColor="@color/color_3b3f47"
+                    android:textSize="@dimen/qd_fontsize_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/qqLayout"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/length_24"
+                android:paddingBottom="@dimen/length_24">
+
+                <ImageView
+                    android:layout_width="@dimen/length_48"
+                    android:layout_height="@dimen/length_48"
+                    android:scaleType="center"
+                    android:src="@drawable/v7_login_qqway" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/length_6"
+                    android:text="@string/share_qq"
+                    android:textColor="@color/color_3b3f47"
+                    android:textSize="@dimen/qd_fontsize_12" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linLoginOther"
+                android:layout_width="0.0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.0"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/length_24"
+                android:paddingBottom="@dimen/length_24">
+
+                <ImageView
+                    android:layout_width="@dimen/length_48"
+                    android:layout_height="@dimen/length_48"
+                    android:background="@drawable/round_100_838a96_bg"
+                    android:scaleType="center"
+                    android:src="@drawable/v7_login_more" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/length_6"
+                    android:text="@string/qita"
+                    android:textColor="@color/color_3b3f47"
+                    android:textSize="@dimen/qd_fontsize_12" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

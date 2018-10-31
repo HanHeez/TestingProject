@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/qd_loading_view_error"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/qd_loading_view_error_image"
+        android:layout_width="@dimen/length_280"
+        android:layout_height="@dimen/length_190"
+        android:scaleType="fitXY"
+        android:src="@drawable/v7_ic_no_network" />
+
+    <TextView
+        android:id="@+id/qd_loading_view_error_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_12"
+        android:textColor="@color/color_3b3f47"
+        android:textSize="@dimen/textsize_16" />
+
+    <TextView
+        android:id="@+id/qd_loading_view_error_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/length_16"
+        android:background="@drawable/bg_loading_error"
+        android:paddingLeft="@dimen/length_15"
+        android:paddingTop="@dimen/length_9"
+        android:paddingRight="@dimen/length_15"
+        android:paddingBottom="@dimen/length_9"
+        android:text="@string/dianjichongshi"
+        android:textColor="@color/color_3b3f47"
+        android:textSize="@dimen/textsize_14"
+        android:visibility="visible" />
+</LinearLayout>

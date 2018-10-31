@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/llMyGroupGuide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/length_16"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_20"
+            android:layout_marginTop="@dimen/length_38"
+            android:rotation="-180.0"
+            android:src="@drawable/v7_ic_arraw_bottom" />
+
+        <TextView
+            android:id="@+id/viewStubNewUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_bookstore_popview"
+            android:drawableLeft="@drawable/red_tip_ed424b_6x6_shap"
+            android:drawablePadding="@dimen/length_9"
+            android:gravity="center_vertical"
+            android:padding="@dimen/length_12"
+            android:text="@string/my_group_guide_hint"
+            android:textColor="@color/white"
+            android:textSize="@dimen/qd_fontsize_14" />
+    </LinearLayout>

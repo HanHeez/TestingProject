@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <LinearLayout
+        android:id="@+id/logoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/login_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/length_16"
+            android:gravity="center_horizontal"
+            android:includeFontPadding="false"
+            android:text="@string/login_title_with_qidian"
+            android:textColor="@color/color_3b3f47"
+            android:textSize="@dimen/qd_fontsize_20"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/mNickNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_below="@+id/logoLayout"
+        android:layout_marginLeft="@dimen/length_24"
+        android:layout_marginTop="@dimen/length_42"
+        android:layout_marginRight="@dimen/length_24"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/nickname_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/v7_ic_yonghu_heise" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/mNickCancelImageView"
+                android:layout_width="@dimen/length_30"
+                android:layout_height="@dimen/length_30"
+                android:scaleType="center"
+                android:src="@drawable/v7_ic_guanbi_huise" />
+
+            <ImageView
+                android:id="@+id/imgDownDrag"
+                android:layout_width="@dimen/length_30"
+                android:layout_height="@dimen/length_30"
+                android:scaleType="center"
+                android:src="@drawable/v7_ic_xiajiantou_54_huise"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/mNickNameLayoutLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1px"
+        android:layout_below="@+id/mNickNameLayout"
+        android:layout_marginLeft="@dimen/length_24"
+        android:layout_marginRight="@dimen/length_24"
+        android:background="@color/edit_text_bottom_line_normal" />
+
+    <RelativeLayout
+        android:id="@+id/mPwdLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_below="@+id/mNickNameLayoutLine"
+        android:layout_marginLeft="@dimen/length_24"
+        android:layout_marginTop="@dimen/length_32"
+        android:layout_marginRight="@dimen/length_24"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/pwd_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/v7_ic_weijiesuo_heise" />
+
+        <View
+            android:layout_width="0px"
+            android:layout_height="0px"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/mShowPwdLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/v6_main_white_icon_selector"
+            android:visibility="invisible">
+
+            <ImageView
+                android:id="@+id/mShowPwdImageView"
+                android:layout_width="@dimen/length_30"
+                android:layout_height="@dimen/length_30"
+                android:layout_centerInParent="true"
+                android:scaleType="center"
+                android:src="@drawable/v7_ic_biyan_huise" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/mPwdCancelImageView"
+            android:layout_width="@dimen/length_30"
+            android:layout_height="@dimen/length_30"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/length_0"
+            android:layout_toLeftOf="@+id/mShowPwdLayout"
+            android:scaleType="center"
+            android:src="@drawable/v7_ic_guanbi_huise" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/mPwdLayoutLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_1px"
+        android:layout_below="@+id/mPwdLayout"
+        android:layout_marginLeft="@dimen/length_24"
+        android:layout_marginRight="@dimen/length_24"
+        android:background="@color/edit_text_bottom_line_normal" />
+
+    <TextView
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/length_40"
+        android:layout_below="@+id/mPwdLayoutLine"
+        android:layout_marginLeft="@dimen/length_24"
+        android:layout_marginTop="@dimen/length_24"
+        android:layout_marginRight="@dimen/length_24"
+        android:background="@drawable/v7_mainred_login_btn"
+        android:gravity="center"
+        android:text="@string/login_title_txt"
+        android:textColor="@color/white"
+        android:textSize="@dimen/qd_fontsize_16"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/mForgetPwdAndRegisterLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"
+        android:layout_marginLeft="@dimen/length_24"
+        android:layout_marginTop="@dimen/length_14"
+        android:layout_marginRight="@dimen/length_24">
+
+        <TextView
+            android:id="@+id/txvForgetPwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/usercenter_btn_selector"
+            android:text="@string/forget_pwd_txt"
+            android:textColor="@color/color_838a96"
+            android:textSize="@dimen/qd_fontsize_14" />
+
+        <TextView
+            android:id="@+id/txvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/usercenter_btn_selector"
+            android:text="@string/register_txt"
+            android:textColor="@color/color_3b3f47"
+            android:textSize="@dimen/qd_fontsize_14" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mUnionLoginLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mForgetPwdAndRegisterLayout"
+        android:layout_alignParentBottom="true"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/quick_login_text_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/length_98"
+                android:layout_height="@dimen/length_1px"
+                android:src="@color/bottom_short_split_line_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/length_10"
+                android:layout_marginRight="@dimen/length_10"
+                android:text="@string/quick_login_text"
+                android:textColor="@color/color_a3abb8"
+                android:textSize="@dimen/textsize_12" />
+
+            <ImageView
+                android:layout_width="@dimen/length_98"
+                android:layout_height="@dimen/length_1px"
+                android:src="@color/bottom_short_split_line_color" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/length_44"
+            android:layout_marginTop="@dimen/length_20"
+            android:layout_marginRight="@dimen/length_44"
+            android:layout_marginBottom="@dimen/length_20">
+
+            <com.qidian.QDReader.framework.widget.abslistview.QDGridView
+                android:id="@+id/mUnionLoginContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="4"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="@dimen/length_16" />
+
+            <LinearLayout
+                android:id="@+id/mExpandCollapseLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mUnionLoginContainer"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/length_50"
+                android:layout_marginRight="@dimen/length_50"
+                android:gravity="center_horizontal"
+                android:paddingTop="@dimen/length_16">
+
+                <ImageView
+                    android:id="@+id/mExpandCollapseBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/v7_ic_xiajiantou_huise" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listAccounts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mNickNameLayout"
+        android:layout_marginLeft="@dimen/length_24"
+        android:layout_marginTop="@dimen/length_1"
+        android:layout_marginRight="@dimen/length_24"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        android:visibility="gone" />
+</RelativeLayout>
